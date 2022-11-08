@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@100;200;300;400&family=Mr+Bedfort&family=Oswald:wght@200;300;500&display=swap');
+
+:root {
+
+    --white: #ffffffff;
+    --rich-black-fogra-39: #070707ff;
+    --space-cadet: #0f1943ff;
+    --celeste: #bcf0eaff;
+    --claret: #6c1e31ff;
+    --cerise: #d1345bff;
+
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+    --text-blank: #050404;
+
+    --fire: #ff6d00;
+    --electric: #27d4e0;
+    --blue: #030b75;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Montserrat", "bedfort&family";
+    box-sizing: border-box;
+}
+
+header {
+    background-color:#f3f4f6; 
+    background: linear-gradient(#1d5d79,#f5e1cc);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 30px;
+}
+
+.logo {
+    height: 90%
+}
+    
+
+.navbar {
+    gap: 150px;
+    justify-content: center;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor:pointer
+}
+
+.navbar-list a {
+    color: var(--text-blank);
+    font-size: 14px
+}
+.navbar-list p {
+    font-weight: 600;
+} 
+
+.navbar,a,img{
+    justify-content:center ;
+    margin-top: 3px;
+    font-weight: 600;
+    height: 80%;
+    padding: 0px 10px;
+    
+}
+
+.footer{
+    height:100px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  
+    flex-direction: column;
+}
+.footer a{
+    color: #b1ada9;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    
+    
+    
+}
+.tucuman{
+    color: #b1ada9;
+    font-size: 14px;
+    display: flex;
+    padding: 20px 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tucuman span{
+    
+    color: #050404;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+}
+
